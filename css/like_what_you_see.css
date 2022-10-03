@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "source_sans_semibold";
+  src: url("fonts/sourcesanspro-semibold-webfont.woff2") format("woff2"), url("fonts/sourcesanspro-semibold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "source_sans_regular";
+  src: url("fonts/sourcesanspro-regular-webfont.woff2") format("woff2"), url("fonts/sourcesanspro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "source_sans_bold";
+  src: url("fonts/sourcesanspro-bold-webfont.woff2") format("woff2"), url("fonts/sourcesanspro-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "source_sans_light";
+  src: url("fonts/sourcesanspro-light-webfont.woff2") format("woff2"), url("fonts/sourcesanspro-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "source_sans_italic";
+  src: url("fonts/sourcesanspro-it-webfont.woff2") format("woff2"), url("fonts/sourcesanspro-it-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+.sixth_block {
+  width: 100%;
+  min-height: 170px;
+  background-color: #15141a;
+}
+.sixth_block .sixth_block_content {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.sixth_block .sixth_block_content .sixth_left .sixth_text {
+  padding-top: 59px;
+  position: relative;
+  color: #ffffff;
+  font-family: "source_sans_semibold";
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+.sixth_block .sixth_block_content .sixth_left .sixth_text span {
+  font-weight: 300;
+}
+.sixth_block .sixth_block_content .sixth_right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 163px;
+}
+.sixth_block .sixth_block_content .sixth_right .button_download {
+  margin-top: 60px;
+  width: 160px;
+  margin-left: 20px;
+  height: 50px;
+  background-color: #008ed6;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(3, 3, 3, 0.1);
+  display: flex;
+  justify-content: center;
+  font-family: source_sans_bold;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sixth_block .sixth_block_content .sixth_right .button_download .download_text {
+  margin-top: 11.5px;
+  text-align: center;
+}
+.sixth_block .sixth_block_content .sixth_right .button_download .download_text a {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.sixth_block .sixth_block_content .sixth_right .button_download .download_text a:hover {
+  border-bottom: 1px solid #fff;
+}
+.sixth_block .sixth_block_content .sixth_right .button_features {
+  margin-top: 60px;
+  width: 160px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: "source_sans_bold";
+  font-weight: bold;
+}
+.sixth_block .sixth_block_content .sixth_right .button_features .features_text {
+  margin-top: 11.5px;
+  text-align: center;
+}
+.sixth_block .sixth_block_content .sixth_right .button_features .features_text a {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.sixth_block .sixth_block_content .sixth_right .button_features .features_text a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+@media (max-width: 1199px) {
+  .sixth_block .sixth_block_content {
+    flex-direction: column;
+  }
+  .sixth_block .sixth_block_content .sixth_left .sixth_text {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  .sixth_block .sixth_block_content .sixth_right {
+    justify-content: center;
+    margin-left: 0;
+  }
+  .sixth_block .sixth_block_content .sixth_right .button_download {
+    margin: 10px;
+  }
+  .sixth_block .sixth_block_content .sixth_right .button_features {
+    margin: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .sixth_block .sixth_block_content .sixth_right {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/*# sourceMappingURL=like_what_you_see.css.map */
