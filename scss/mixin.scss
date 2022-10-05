@@ -1,0 +1,45 @@
+$blue: #008ed6;
+@mixin subtext{
+  font-family: source_sans_regular;
+  font-size: 18px;
+  line-height: 26px;
+  color: #999999;
+}
+@mixin plan_text{
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: source_sans_bold;
+  color: #1a1a1a;
+  text-align: center;
+}
+@mixin borders{
+  border-left: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+}
+@mixin dollar{
+  font-size: 27px;
+  font-family: source_sans_semibold;
+  color: #1a1a1a;
+}
+@mixin real_price{
+  font-size: 60px;
+  font-family: source_sans_semibold;
+  color: #1a1a1a;
+}
+@mixin button_order{
+  width: 160px;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  font-family: source_sans_bold;
+  text-transform: uppercase;
+  .order{
+    margin-top: 21px;
+    margin-left: 42px;
+    a{
+      text-decoration: none;
+      color: $blue;
+    }
+  }
+}
