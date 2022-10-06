@@ -1,4 +1,21 @@
 $blue: #008ed6;
+@mixin blue_title{
+  color: $blue;
+  font-family: "source_sans_bold";
+  font-size: 14px;
+  letter-spacing: 1.42px;
+  text-transform: uppercase;
+}
+@mixin black_title{
+  color: #1a1a1a;
+  font-family: "source_sans_semibold";
+  font-size: 36px;
+}
+@mixin blue_line{
+  background: linear-gradient(to right, $blue  48%, transparent 48%, transparent 53%,  $blue 52%);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
 @mixin subtext{
   font-family: source_sans_regular;
   font-size: 18px;

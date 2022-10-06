@@ -5,27 +5,19 @@
   margin: 0 auto;
   min-height: 780px;
   .blue_title{
-    color: $blue;
-    font-family: "source_sans_bold";
-    font-size: 14px;
-    letter-spacing: 1.42px;
-    text-transform: uppercase;
+    @include blue_title;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 56px 0 0 0;
     text-align: center;
   }
   .black_title{
-    color: #1a1a1a;
-    font-family: "source_sans_semibold";
-    font-size: 36px;
+    @include black_title;
     text-align: center;
     margin: 7px auto 0;
   }
   .blue_line{
-    background: linear-gradient(to right, $blue  48%, transparent 48%, transparent 53%,  $blue 52%);
-    background-position: bottom;
-    background-repeat: no-repeat;
+    @include blue_line;
     width: 42px;
     height: 2px;
     margin: 25px auto 0;
