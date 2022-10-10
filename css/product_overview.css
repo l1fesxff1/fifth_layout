@@ -24,14 +24,14 @@
   font-family: "source_sans_semibold";
   font-size: 36px;
   margin-top: 7.3px;
-  padding-bottom: 33px;
+  padding-bottom: 29px;
 }
-.second_block .second_block_titles .black_title:hover {
+.second_block .second_block_titles .blue_line {
   background: linear-gradient(to right, #008ed6 48%, transparent 48%, transparent 53%, #008ed6 52%);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 42px 2px;
-  position: relative;
+  width: 42px;
+  height: 2px;
 }
 .second_block .second_block_list {
   display: flex;

@@ -128,14 +128,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "source_sans_semibold";
   font-size: 36px;
   margin-top: 7.3px;
-  padding-bottom: 33px;
+  padding-bottom: 29px;
 }
-.second_block .second_block_titles .black_title:hover {
+.second_block .second_block_titles .blue_line {
   background: linear-gradient(to right, #008ed6 48%, transparent 48%, transparent 53%, #008ed6 52%);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 42px 2px;
-  position: relative;
+  width: 42px;
+  height: 2px;
 }
 .second_block .second_block_list {
   display: flex;
@@ -531,7 +531,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .third_block .row .third_block_right .blue_line {
   margin-left: 3px;
-  margin-top: 22px;
+  margin-top: 21px;
   background: linear-gradient(to right, #008ed6 48%, transparent 48%, transparent 53%, #008ed6 52%);
   background-position: bottom;
   background-repeat: no-repeat;
@@ -1018,7 +1018,7 @@ h1, h2, h3, h4, h5, h6 {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #008ed6;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -1041,7 +1041,7 @@ h1, h2, h3, h4, h5, h6 {
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #0d6efd;
+  --bs-primary: #008ed6;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -1049,7 +1049,7 @@ h1, h2, h3, h4, h5, h6 {
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 13, 110, 253;
+  --bs-primary-rgb: 0, 142, 214;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -1080,8 +1080,8 @@ h1, h2, h3, h4, h5, h6 {
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #0a58ca;
+  --bs-link-color: #008ed6;
+  --bs-link-hover-color: #0072ab;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -5881,6 +5881,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 17px;
 }
 .eight_block .eight_block_content .contacts .map_contact_block .address {
   margin-top: 22px;
@@ -6047,14 +6048,8 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr;
     grid-row-gap: 2em;
   }
-  .eight_block .eight_block_content .contacts .tel_contact_block .tel_contact_img {
-    margin: 0;
-  }
   .eight_block .eight_block_content .contacts .map_contact_block {
-    margin: 0;
-  }
-  .eight_block .eight_block_content .contacts .map_contact_block .map_contact_img {
-    margin: 0;
+    margin-left: 0;
   }
 }
 @font-face {
