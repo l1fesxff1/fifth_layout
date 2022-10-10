@@ -5881,7 +5881,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 17px;
 }
 .eight_block .eight_block_content .contacts .map_contact_block .address {
   margin-top: 22px;
@@ -6014,6 +6013,9 @@ h1, h2, h3, h4, h5, h6 {
   .eight_block .eight_block_content .contacts {
     display: flex;
     justify-content: space-around;
+  }
+  .eight_block .eight_block_content .contacts .map_contact_block {
+    margin-left: 17px;
   }
 }
 @media (max-width: 799px) {
