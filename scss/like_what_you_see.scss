@@ -25,7 +25,7 @@
     .sixth_right{
       display: flex;
       flex-direction: row;
-      margin-left: 163px;
+      padding-left: 163px;
         .button_download{
           margin-top: 60px;
           width: 160px;
@@ -90,7 +90,7 @@
     }
     .sixth_right{
       justify-content: center;
-      margin-left: 0;
+      padding-left: 0;
         .button_download{
           margin: 10px
         }

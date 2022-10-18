@@ -478,6 +478,9 @@
 }
 
 @media (max-width: 1199px) {
+  .seventh_block {
+    padding-bottom: 10px;
+  }
   .seventh_block .blue_title {
     padding-top: 40px;
   }

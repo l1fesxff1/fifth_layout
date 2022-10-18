@@ -1,4 +1,4 @@
-$blue: #008ed6;
+@import "variables";
 @mixin blue_title{
   color: $blue;
   font-family: "source_sans_bold";

@@ -15,6 +15,7 @@
       text-align: center;
     }
     .black_title{
+      line-height: 100%;
       @include black_title;
       margin: 7px auto 0;
       text-align: center;
@@ -120,6 +121,19 @@
             font-size: 14px;
             font-family: source_sans_bold;
             text-transform: uppercase;
+            &:focus{
+              box-shadow:  0 0 13px rgb(186, 194, 170);
+              border: 1px solid #cccbc1;
+              outline: none;
+            }
+            &:active{
+              color: #cccbc1;
+            }
+            &:valid{
+              box-shadow:  0 0 13px rgb(91, 129, 7);
+              border: 1px solid #5b8107;
+              outline: none;
+            }
           }
         }
         .form_right{
@@ -142,6 +156,14 @@
             font-size: 14px;
             font-family: source_sans_bold;
             text-transform: uppercase;
+            &:focus{
+              box-shadow:  0 0 13px rgb(186, 194, 170);
+              border: 1px solid #cccbc1;
+              outline: none;
+            }
+            &:active{
+              color: #cccbc1;
+            }
           }
           .button_message{
             @include button_order;
@@ -149,12 +171,9 @@
             border: none;
             margin-top: 21px;
             align-self: flex-end;
-            a{
-              text-decoration: none;
-              color: white;
-              &:hover{
-                border-bottom: 1px solid #fff;
-              }
+            color: white;
+            &:hover{
+              text-transform: uppercase;
             }
           }
         }

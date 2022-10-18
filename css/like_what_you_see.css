@@ -54,7 +54,7 @@
 .sixth_block .sixth_block_content .sixth_right {
   display: flex;
   flex-direction: row;
-  margin-left: 163px;
+  padding-left: 163px;
 }
 .sixth_block .sixth_block_content .sixth_right .button_download {
   margin-top: 60px;
@@ -116,7 +116,7 @@
   }
   .sixth_block .sixth_block_content .sixth_right {
     justify-content: center;
-    margin-left: 0;
+    padding-left: 0;
   }
   .sixth_block .sixth_block_content .sixth_right .button_download {
     margin: 10px;
